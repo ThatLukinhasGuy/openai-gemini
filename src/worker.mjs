@@ -194,7 +194,7 @@ const harmCategory = [
 ];
 const safetySettings = harmCategory.map(category => ({
   category,
-  threshold: "BLOCK_NONE",
+  threshold: "OFF",
 }));
 const fieldsMap = {
   stop: "stopSequences",
